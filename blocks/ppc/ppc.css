@@ -1,17 +1,17 @@
 .ppc {
   max-width: 1110px;
   margin: 0 auto;
-  padding: 48px 54px 92px 55px;
+  padding: 90px 54px 92px 55px;
 }
 
 @media screen and (max-width: 767px) {
   .ppc {
-    padding: 24px 27px 46px 27px;
+    padding: 68px 27px 46px 27px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .ppc {
-    padding: 12px 13px 23px 13px;
+    padding: 51px 13px 23px 13px;
   }
 }
