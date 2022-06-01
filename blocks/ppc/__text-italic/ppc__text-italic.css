@@ -1,0 +1,18 @@
+.ppc__text-italic {
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+  .ppc__text-italic {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ppc__text-italic {
+    font-size: 18px;
+  }
+}

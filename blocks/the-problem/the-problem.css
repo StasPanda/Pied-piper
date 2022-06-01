@@ -1,0 +1,17 @@
+.the-problem {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 48px 54px 92px 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .the-problem {
+    padding: 24px 27px 46px 27px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .the-problem {
+    padding: 12px 13px 23px 13px;
+  }
+}

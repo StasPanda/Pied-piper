@@ -1,0 +1,21 @@
+.hero__text {
+  max-width: 893px;
+  font-style: italic;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__text {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero__text {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,17 @@
+.ppc__logo {
+  width: 115px;
+  height: 115px;
+  margin: 0 48px 35px 0;
+  background-image: url(../../../images/PPCLogo.svg);
+  background-size: cover;
+  float: left;
+}
+
+@media screen and (max-width: 767px) {
+  .ppc__logo {
+    width: 85px;
+    height: 85px;
+    margin: 17px auto;
+    float: none;
+  }
+}

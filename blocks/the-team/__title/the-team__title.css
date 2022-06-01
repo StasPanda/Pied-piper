@@ -1,0 +1,25 @@
+.the-team__title {
+  margin: 0 auto 32px;
+  padding-top: 48px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: #007765;
+}
+
+@media screen and (max-width: 767px) {
+  .the-team__title {
+    margin-bottom: 24px;
+    padding-top: 36px;
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .the-team__title {
+    margin-bottom: 18px;
+    padding-top: 28px;
+    font-size: 36px;
+  }
+}

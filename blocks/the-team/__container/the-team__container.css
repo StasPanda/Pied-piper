@@ -1,0 +1,24 @@
+.the-team__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 54px 94px 55px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .the-team__container {
+    padding: 24px 27px 46px 27px;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .the-team__container {
+    padding: 12px 13px 23px 13px;
+    grid-template-columns: 1fr;
+    gap: 10px
+  }
+}

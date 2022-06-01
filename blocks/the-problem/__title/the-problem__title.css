@@ -1,0 +1,20 @@
+.the-problem__title {
+  margin: 0 auto 16px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: #007765;
+}
+
+@media screen and (max-width: 767px) {
+  .the-problem__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .the-problem__title {
+    font-size: 36px;
+  }
+}
